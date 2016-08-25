@@ -29,24 +29,24 @@
 	</head>
 <body id="top">
 	<div class="container">
-		<nav class="navbar navbar-fixed-top navbar-inverse"> <!-- Main navigation; navbar, static -->
-			<div class="container-fluid  navbar-right">
+		<nav class="navbar navbar-fixed-top navbar-inverse"> <!-- Main navigation; navbar, fixed -->
+			<div class="container-fluid navbar-right">
 				<!-- Brand and toggle get grouped for better mobile display -->
 				<div class="navbar-header">
-      				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        				<span class="sr-only">Toggle navigation</span>
-        				<span class="icon-bar"></span> <!-- Dash one -->
-        				<span class="icon-bar"></span> <!-- Dash two -->
-        				<span class="icon-bar"></span> <!-- Dash three -->
-      				</button>
+      		<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        		<span class="sr-only">Toggle navigation</span>
+        		<span class="icon-bar"></span> <!-- Dash one -->
+        		<span class="icon-bar"></span> <!-- Dash two -->
+        		<span class="icon-bar"></span> <!-- Dash three -->
+      		</button>
 				</div>
 				<!-- Collect the nav links, forms, and other content for toggling -->
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      				<ul class="nav navbar-nav">
-      					<li><a href="index.html"><img src="graphics/Home-32.png" alt="Go to homepage" title="Go to homepage"></a></li>
-						<!--<li><a href="#">Placeholder</a></li>-->
-      					<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Programming<span class="caret"></span></a>
-          					<ul class="dropdown-menu">
+      		<ul class="nav navbar-nav">
+      			<li><a href="index.html"><img src="graphics/Home-32.png" alt="Go to homepage" title="Go to homepage"></a></li>
+						<li><a href="#timeline">Timeline</a></li>
+      			<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Programming<span class="caret"></span></a>
+          		<ul class="dropdown-menu">
 								<li><a href="#htmlcss">HTML/CSS</a></li>
 								<li role="separator" class="divider"></li>
 								<li><a href="#javascript">JavaScript</a></li>
@@ -54,26 +54,26 @@
 								<li><a href="#python">Python</a></li>
 								<li role="separator" class="divider"></li>
 			 					<li><a href="#matlab">MATLAB</a></li>
-          						<li role="separator" class="divider"></li>
-          						<li><a href="#databases">Databases</a></li>
-          						<li role="separator" class="divider"></li>
-          						<li><a href="#gis">ArcGIS/OpenGIS</a></li>
-          						<li role="separator" class="divider"></li>
-          						<li><a href="#android">Android</a></li>
-          					</ul>
-        				</li>
+          			<li role="separator" class="divider"></li>
+          			<li><a href="#databases">Databases</a></li>
+          			<li role="separator" class="divider"></li>
+          			<li><a href="#gis">ArcGIS/OpenGIS</a></li>
+          			<li role="separator" class="divider"></li>
+          			<li><a href="#android">Android</a></li>
+          		</ul>
+        			</li>
 						<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Languages<span class="caret"></span></a>
-          					<ul class="dropdown-menu">
-          						<li><a href="#french">French</a></li>
-          						<li role="separator" class="divider"></li>
-          						<li><a href="#russian">Russian</a></li>
-          						<li role="separator" class="divider"></li>
-          						<li><a href="#hebrew">Hebrew</a></li>
-          						<li role="separator" class="divider"></li>
-          						<li><a href="#japanese">Japanese</a></li>
-          					</ul>
-          				</li>
-          				<li><a href="#top">Go to top</a></li> <!-- Go to top of page -->
+          		<ul class="dropdown-menu">
+          			<li><a href="#french">French</a></li>
+          			<li role="separator" class="divider"></li>
+          			<li><a href="#russian">Russian</a></li>
+          			<li role="separator" class="divider"></li>
+          			<li><a href="#hebrew">Hebrew</a></li>
+          			<li role="separator" class="divider"></li>
+          			<li><a href="#japanese">Japanese</a></li>
+          		</ul>
+          	</li>
+          	<li><a href="#top">Go to top</a></li> <!-- Go to top of page -->
 					</ul>
 				</div>
 			</div>
@@ -99,80 +99,105 @@
 							<li>General programming</li>
 								<div class="progress">
 									<div class="progress-bar progress-bar-success" role="progressbar" style="min-width: 2em; width: 100%">
-										100% <!---->
+										<span class="progress-text-success">100 %</span> <!---->
 									</div>
 								</div>
 							<li>HTML/CSS/Bootstrap</li>
 								<div class="progress">
-									<div class="progress-bar progress-bar-success" role="progressbar" style="min-width: 2em; width: 0%">
-										30% <!-- 8/26=30%-->
+									<div class="progress-bar progress-bar-success" role="progressbar" style="min-width: 2em; width: 30%">
+										<span class="progress-text-success">30 %</span> <!-- 8/26=30%-->
 									</div>
 								</div>
 							<li>Javascript</li>
 								<div class="progress">
-									<div class="progress-bar progress-bar-success" role="progressbar" style="min-width: 2em; width: 0%">
-										0% <!---->
+									<div class="progress-bar progress-bar-success" role="progressbar" style="min-width: 2em; width: 10%">
+										<span class="progress-text-success">10 %</span> <!--x/19 -->
 									</div>
 								</div>
+								<ul>
+									<li>JQuery</li>
+										<div class="progress">
+											<div class="progress-bar progress-bar-success" role="progressbar" style="min-width: 2em; width: 0%">
+												<span class="progress-text-success">0 %</span> <!--x/ -->
+											</div>
+										</div>
+								</ul>
 							<li>Python</li>
 								<div class="progress">
 									<div class="progress-bar progress-bar-success" role="progressbar" style="min-width: 2em; width: 0%">
-										0% <!---->
+										<span class="progress-text-success">0 %</span> <!---->
 										</div>
 									</div>
+								<ul>
+									<li>Django</li>
+										<div class="progress">
+											<div class="progress-bar progress-bar-success" role="progressbar" style="min-width: 2em; width: 0%">
+												<span class="progress-text-success">0 %</span> <!--x/ -->
+											</div>
+										</div>
+								</ul>
 							<li>MATLAB</li>
 								<div class="progress">
 									<div class="progress-bar progress-bar-success" role="progressbar" style="min-width: 2em; width: 0%">
-										0% <!---->
+										<span class="progress-text-success">0 %</span> <!---->
 									</div>
 								</div>
 							<li>Databases</li>
 								<div class="progress">
 									<div class="progress-bar progress-bar-success" role="progressbar" style="min-width: 2em; width: 0%">
-										0% <!---->
+										<span class="progress-text-success">0 %</span> <!---->
 									</div>
 								</div>
 							<li>GIS</li>
 								<div class="progress">
 									<div class="progress-bar progress-bar-success" role="progressbar" style="min-width: 2em; width: 0%">
-										0% <!---->
+										<span class="progress-text-success">0 %</span> <!---->
 									</div>
 								</div>
 							<li>Android</li>
 								<div class="progress">
 									<div class="progress-bar progress-bar-success" role="progressbar" style="min-width: 2em; width: 0%">
-										0% <!---->
+										<span class="progress-text-success">0 %</span> <!---->
 									</div>
 								</div>
 						</ul>
 				</div>
 				<div class="col-md-6"> <!-- Summary progress languages-->
 					<h2>Languages</h2>
-						<ul>
-							<li>French</li>
-								<div class="progress">
-											<div class="progress-bar progress-bar-success" role="progressbar" style="min-width: 2em; width: 0%">
-												0% <!---->
-											</div>
+						<h3>French</h3>
+							<ul>
+								<li>Duolingo</li>
+									<div class="progress">
+										<div class="progress-bar progress-bar-success" role="progressbar" style="min-width: 2em; width: 0%">
+											<span class="progress-text-success">0 %</span> <!---->
 										</div>
+									</div>
+								<li>Lingvist</li>
+									<div class="progress">
+										<div class="progress-bar progress-bar-success" role="progressbar" style="min-width: 2em; width: 0%">
+											<span class="progress-text-success">0 % <!---->
+										</div>
+									</div>
+							</ul>
+						<ul>
 							<li>Russian</li>
 								<div class="progress">
-											<div class="progress-bar progress-bar-success" role="progressbar" style="min-width: 2em; width: 0%">
-												0% <!---->
-											</div>
-										</div>
+									<div class="progress-bar progress-bar-success" role="progressbar" style="min-width: 2em; width: 0%">
+										<span class="progress-text-success">0 %</span> <!---->
+									</div>
+								</div>
 							<li>Hebrew</li>
 								<div class="progress">
-											<div class="progress-bar progress-bar-success" role="progressbar" style="min-width: 2em; width: 0%">
-												0% <!---->
-											</div>
-										</div>
+									<div class="progress-bar progress-bar-success" role="progressbar" style="min-width: 2em; width: 0%">
+										<span class="progress-text-success">0 %</span> <!---->
+									</div>
+								</div>
 							<li>Japanese</li>
 								<div class="progress">
-											<div class="progress-bar progress-bar-success" role="progressbar" style="min-width: 2em; width: 0%">
-												0% <!---->
-											</div>
-										</div>
+									<div class="progress-bar progress-bar-success" role="progressbar" style="min-width: 2em; width: 0%">
+										<span class="progress-text-success">0 %</span> <!---->
+									</div>
+								</div>
 						</ul>
 				</div>
 		</div> <!-- Summary progress ends -->
@@ -181,162 +206,281 @@
 				<hr> <!-- Horizontal rule -->
 			</div>
 		</div>
-		<div class="row intraheader-section"> <!-- Programming | HTML/CSS & JavaScript -->
+		<div class="row between-sections"> <!-- Programming | HTML/CSS & JavaScript -->
 			<h2 class="header-section" id="programming">Programming</h2>
-				<div class="col-md-6"> <!-- Takes up 50% of row-->
+				<div class="col-md-6"> <!-- HTML/CSS/Bootstrap row-->
 						<h4><a href="https://www.lynda.com" target="_blank">Lynda</a></h4>
 							<ul>
-								<li><a href="https://www.lynda.com/Python-tutorials/Programming-Fundamentals-Real-World/418249-2.html" target="_blank">
-Programming Fundamentals in the Real World</a><img class="completed" src="graphics/accept.png" alt="Comleted!" title="Completed!"></li>
+								<li><img class="completed" src="graphics/accept.png" alt="Comleted!" title="Completed!">
+										<a href="https://www.lynda.com/Python-tutorials/Programming-Fundamentals-Real-World/418249-2.html" target="_blank">
+											Programming Fundamentals in the Real World</a>
+											<small title="Completed on:">2016-06-29</small></li>
 							</ul>
 					<h3 id="htmlcss">HTML/CSS/Bootstrap<a href="#top"><button type="button" class="btn btn-info top">Top</button></a></h3>
 						<h4><a href="https://www.codecademy.com/learn" target="_blank">Codecademy</a></h4>
 							<ul>
-								<li><a href="https://www.codecademy.com/learn/make-a-website" target="_blank">Make a website</a><img class="completed" src="graphics/accept.png" alt="Comleted!" title="Completed!"></li>
-								<li><a href="https://www.codecademy.com/learn/web" target="_blank">HTML &amp; CSS</a><img class="completed" src="graphics/accept.png" alt="Comleted!" title="Completed!"></li>
-								<li><a href="https://www.codecademy.com/en/courses/learn-sass" target="_blank">Learn Sass</a></li>
+								<li><img class="completed" src="graphics/accept.png" alt="Comleted!" title="Completed!">
+										<a href="https://www.codecademy.com/learn/make-a-website" target="_blank">Make a website</a>
+										<small title="Completed on:">2016-07-16</small></li>
+								<li><img class="completed" src="graphics/accept.png" alt="Comleted!" title="Completed!">
+										<a href="https://www.codecademy.com/learn/web" target="_blank">HTML &amp; CSS</a>
+										<small title="Completed on:">2016-07-20</small></li>
+								<li><!--<img class="completed" src="graphics/accept.png" alt="Comleted!" title="Completed!">-->
+										<a href="https://www.codecademy.com/en/courses/learn-sass" target="_blank">Learn Sass</a>
+										<small title="Completed on:"></small></li>
 							</ul>
 						<h4><a href="https://www.codeschool.com" target="_blank">Code school</a></h4>
 							<ul>
-								<li><a href="https://www.codeschool.com/screencasts/build-an-interactive-website-part-1" target="_blank">Build an Interactive Website: Part 1</a></li>
-								<li><a href="https://www.codeschool.com/screencasts/build-an-interactive-website-part-2" target="_blank">Build an Interactive Website: Part 2</a></li>
-								<li><a href="https://www.codeschool.com/courses/css-cross-country" target="_blank">CSS Cross Country</a></li>
-								<li><a href="https://www.codeschool.com/courses/fundamentals-of-design" target="_blank">Fundamentals of Design</li>
-								<li><a href="https://www.codeschool.com/courses/the-elements-of-web-design" target="_blank">The Elements of Web Design</a></li>
+								<li><!--<img class="completed" src="graphics/accept.png" alt="Comleted!" title="Completed!">-->
+										<a href="https://www.codeschool.com/screencasts/build-an-interactive-website-part-1" target="_blank">Build an Interactive Website: Part 1</a>
+										<small title="Completed on:"></small></li>
+								<li><!--<img class="completed" src="graphics/accept.png" alt="Comleted!" title="Completed!">-->
+										<a href="https://www.codeschool.com/screencasts/build-an-interactive-website-part-2" target="_blank">Build an Interactive Website: Part 2</a>
+										<small title="Completed on:"></small></li>
+								<li><!--<img class="completed" src="graphics/accept.png" alt="Comleted!" title="Completed!">-->
+										<a href="https://www.codeschool.com/courses/css-cross-country" target="_blank">CSS Cross Country</a>
+										<small title="Completed on:"></small></li>
+								<li><!--<img class="completed" src="graphics/accept.png" alt="Comleted!" title="Completed!">-->
+										<a href="https://www.codeschool.com/courses/fundamentals-of-design" target="_blank">Fundamentals of Design</a>
+										<small title="Completed on:"></small></li>
+								<li><!--<img class="completed" src="graphics/accept.png" alt="Comleted!" title="Completed!">-->
+										<a href="https://www.codeschool.com/courses/the-elements-of-web-design" target="_blank">The Elements of Web Design</a>
+										<small title="Completed on:"></small></li>
 							</ul>
 						<h4><a href="https://www.freecodecamp.com" target="_blank">Freecodecamp</a></h4>
 							<ul>
-								<li><a href="https://www.freecodecamp.com/map-aside#nested-HTML5andCSS" target="_blank">HTML5 &amp; CSS</a><img class="completed" src="graphics/accept.png" alt="Comleted!" title="Completed!"></li>
-								<li><a href="https://www.freecodecamp.com/map-aside#nested-ResponsiveDesignwithBootstrap" target="_blank">Responsive Design with Bootstrap</a><img class="completed" src="graphics/accept.png" alt="Comleted!" title="Completed!"></li>
+								<li><img class="completed" src="graphics/accept.png" alt="Comleted!" title="Completed!">
+										<a href="https://www.freecodecamp.com/map-aside#nested-HTML5andCSS" target="_blank">HTML5 &amp; CSS</a>
+										<small title="Completed on:">2016-07-11</small></li>
+								<li><img class="completed" src="graphics/accept.png" alt="Comleted!" title="Completed!">
+										<a href="https://www.freecodecamp.com/map-aside#nested-ResponsiveDesignwithBootstrap" target="_blank">Responsive Design with Bootstrap</a>
+										<small title="Completed on:">2016-07-13</small></li>
 							</ul>
 						<h4><a href="https://www.lynda.com" target="_blank">Lynda</a></h4>
 							<ul>
-								<li><a href="https://www.lynda.com/User-Experience-tutorials/User-Experience-Fundamentals-Web-Design/421802-2.html" target="_blank">User Experience Fundamentals Web Design</a><img class="completed" src="graphics/accept.png" alt="Comleted!" title="Completed!"></li>
-								<li><a href="https://www.lynda.com/HTML-tutorials/xand-essential-training/47603-2.html" target="_blank">XHTML and HTML Essential Training</a></li>
-								<li><a href="https://www.lynda.com/HTML-5-tutorials/HTML5-Web-Forms-in-Depth/80852-2.html" target="_blank">HTML5: Web Forms in Depthg</a></li>
-								<li><a href="https://www.lynda.com/Web-Interactive-CSS-tutorials/CSS-Core-Concepts/80435-2.html" target="_blank">CSS: Core Conceptsg</a></li>
-								<li><a href="https://www.lynda.com/Web-Interactive-CSS-training/CSS-Page-Layouts/86003-2.html" target="_blank">CSS: Page Layoutsg</a></li>
-								<li><a href="https://www.lynda.com/CSS-tutorials/CSS-Styling-Navigation/90367-2.html" target="_blank">CSS: Styling Navigationg</a></li>
-								<li><a href="https://www.lynda.com/CSS-tutorials/for-developers/52341-2.html" target="_blank">CSS for Developersg</a></li>
-								<li><a href="https://www.lynda.com/Google-Analytics-tutorials/Advanced-Google-Analytics/428718-2.html" target="_blank">Advanced Google Analyticsg</a></li>
-								<li><a href="https://www.lynda.com/Analytics-tutorials/Google-Analytics-Tips-Tricks-Tutorials/135364-2.html" target="_blank">Google Analytics Tipsg</a></li>
-								<li><a href="https://www.lynda.com/Google-Analytics-tutorials/Google-Analytics-Essential-Training/197523-2.html" target="_blank">Google Analytics Essential Trainingg</a></li>
-									<li><a href="https://www.lynda.com/Marketing-Enterprise-Marketing-tutorials/SEO-Fundamentals/187858-2.html" target="_blank">SEO Fundamentals</a></a></li>
-								<li><a href="https://www.lynda.com/Business-Skills-tutorials/Building-Your-Brand/101957-2.html" target="_blank">Brand Building Basicsg</a></li>
-								<li><a href="https://www.lynda.com/HTML-tutorials/HTML-Essential-Training/170427-2.html" target="_blank">HTML Essential Trainingg</a></li>
+								<li><img class="completed" src="graphics/accept.png" alt="Comleted!" title="Completed!">
+										<a href="https://www.lynda.com/User-Experience-tutorials/User-Experience-Fundamentals-Web-Design/421802-2.html" target="_blank">User Experience Fundamentals Web Design</a>
+										<small title="Completed on:">2016-06-19</small></li>
+								<li><!--<img class="completed" src="graphics/accept.png" alt="Comleted!" title="Completed!">-->
+										<a href="https://www.lynda.com/HTML-tutorials/xand-essential-training/47603-2.html" target="_blank">XHTML and HTML Essential Training</a>
+										<small title="Completed on:"></small></li>
+								<li><!--<img class="completed" src="graphics/accept.png" alt="Comleted!" title="Completed!">-->
+										<a href="https://www.lynda.com/HTML-5-tutorials/HTML5-Web-Forms-in-Depth/80852-2.html" target="_blank">HTML5: Web Forms in Depthg</a>
+										<small title="Completed on:"></small></li>
+								<li><!--<img class="completed" src="graphics/accept.png" alt="Comleted!" title="Completed!">-->
+										<a href="https://www.lynda.com/Web-Interactive-CSS-tutorials/CSS-Core-Concepts/80435-2.html" target="_blank">CSS: Core Conceptsg</a>
+										<small title="Completed on:"></small></li>
+								<li><!--<img class="completed" src="graphics/accept.png" alt="Comleted!" title="Completed!">-->
+										<a href="https://www.lynda.com/Web-Interactive-CSS-training/CSS-Page-Layouts/86003-2.html" target="_blank">CSS: Page Layoutsg</a>
+										<small title="Completed on:"></small></li>
+								<li><!--<img class="completed" src="graphics/accept.png" alt="Comleted!" title="Completed!">-->
+										<a href="https://www.lynda.com/CSS-tutorials/CSS-Styling-Navigation/90367-2.html" target="_blank">CSS: Styling Navigationg</a>
+										<small title="Completed on:"></small></li>
+								<li><!--<img class="completed" src="graphics/accept.png" alt="Comleted!" title="Completed!">-->
+										<a href="https://www.lynda.com/CSS-tutorials/for-developers/52341-2.html" target="_blank">CSS for Developers</a>
+										<small title="Completed on:"></small></li>
+								<li><!--<img class="completed" src="graphics/accept.png" alt="Comleted!" title="Completed!">-->
+										<a href="https://www.lynda.com/Google-Analytics-tutorials/Advanced-Google-Analytics/428718-2.html" target="_blank">Advanced Google Analytics</a>
+										<small title="Completed on:"></small></li>
+								<li><!--<img class="completed" src="graphics/accept.png" alt="Comleted!" title="Completed!">-->
+										<a href="https://www.lynda.com/Analytics-tutorials/Google-Analytics-Tips-Tricks-Tutorials/135364-2.html" target="_blank">Google Analytics Tips</a>
+										<small title="Completed on:"></small></li>
+								<li><!--<img class="completed" src="graphics/accept.png" alt="Comleted!" title="Completed!">-->
+										<a href="https://www.lynda.com/Google-Analytics-tutorials/Google-Analytics-Essential-Training/197523-2.html" target="_blank">Google Analytics Essential Training</a>
+										<small title="Completed on:"></small></li>
+								<li><!--<img class="completed" src="graphics/accept.png" alt="Comleted!" title="Completed!">-->
+										<a href="https://www.lynda.com/Marketing-Enterprise-Marketing-tutorials/SEO-Fundamentals/187858-2.html" target="_blank">SEO Fundamentals</a></a>
+										<small title="Completed on:"></small></li>
+								<li><!--<img class="completed" src="graphics/accept.png" alt="Comleted!" title="Completed!">-->
+										<a href="https://www.lynda.com/Business-Skills-tutorials/Building-Your-Brand/101957-2.html" target="_blank">Brand Building Basicsg</a>
+										<small title="Completed on:"></small></li>
+								<li><!--<img class="completed" src="graphics/accept.png" alt="Comleted!" title="Completed!">-->
+										<a href="https://www.lynda.com/HTML-tutorials/HTML-Essential-Training/170427-2.html" target="_blank">HTML Essential Trainingg</a>
+										<small title="Completed on:"></small></li>
 							</ul>
 						<h4><a href="http://www.sololearn.com" target="_blank">Sololearn</a></h4>
 							<ul>
-								<li><a href="http://www.sololearn.com/Play/HTML" target="_blank">SoloLearn: HTML</a><img class="completed" src="graphics/accept.png" alt="Comleted!" title="Completed!"></li>
-								<li><a href="http://www.sololearn.com/Play/CSS" target="_blank">SoloLearn: CSS</a><img class="completed" src="graphics/accept.png" alt="Comleted!" title="Completed!"></li>
+								<li><img class="completed" src="graphics/accept.png" alt="Comleted!" title="Completed!">
+										<a href="http://www.sololearn.com/Play/HTML" target="_blank">SoloLearn: HTML</a>
+										<small title="Completed on:">2016-07-15</small></li>
+								<li><img class="completed" src="graphics/accept.png" alt="Comleted!" title="Completed!">
+										<a href="http://www.sololearn.com/Play/CSS" target="_blank">SoloLearn: CSS</a>
+										<small title="Completed on:">2016-07-12</small></li>
 							</ul>
 						<h4><a href="https://www.udacity.com" target="_blank">Udacity</a></h4>
 							<ul>
-								<li><a href="https://www.udacity.com/course/intro-to-html-and-css--ud304" target="_blank">Intro to HTML and CSS</a><img class="completed" src="graphics/accept.png" alt="Comleted!" title="Completed!"></li>
+								<li><img class="completed" src="graphics/accept.png" alt="Comleted!" title="Completed!">
+										<a href="https://www.udacity.com/course/intro-to-html-and-css--ud304" target="_blank">Intro to HTML and CSS</a>
+										<small title="Completed on:">2016-07</small></li>
 							</ul>
 				</div>
-			<div class="col-md-6"> <!-- Takes up 50% of row -->
-				<h3 id="javascript">JavaScript<a href="#top"><button type="button" class="btn btn-info top">Top</button></a></h3>
+				<div class="col-md-6"> <!-- JavaScript row -->
+					<h3 id="javascript">JavaScript<a href="#top"><button type="button" class="btn btn-info top">Top</button></a></h3>
 						<h4><a href="https://www.codecademy.com/learn" target="_blank">Codecademy</a></h4>
-							<ul>
-								<li><a href="https://www.codecademy.com/en/tracks/javascript" target="_blank">JavaScript</a></li>
-								<li><a href="https://www.codecademy.com/en/skills/make-an-interactive-website" target="_blank">Make an Interactive Website</a></li>
-							</ul>
+								<ul>
+									<li><!--<img class="completed" src="graphics/accept.png" alt="Comleted!" title="Completed!">-->
+											<a href="https://www.codecademy.com/en/tracks/javascript" target="_blank">JavaScript</a>
+											<small title="Completed on:"></small></li>
+									<li><!--<img class="completed" src="graphics/accept.png" alt="Comleted!" title="Completed!">-->
+											<a href="https://www.codecademy.com/en/skills/make-an-interactive-website" target="_blank">Make an Interactive Website</a>
+											<small title="Completed on:"></small></li>
+								</ul>
 						<h4><a href="https://www.codeschool.com" target="_blank">Code school</a></h4>
-							<ul>
-								<li><a href="https://www.codeschool.com/courses/javascript-best-practices" target="_blank">JavaScript Best Practices</a></li>
-								<li><a href="https://www.codeschool.com/courses/javascript-road-trip-part-1" target="_blank">JavaScript Road Trip Part 1</a></li>
-								<li><a href="https://www.codeschool.com/courses/javascript-road-trip-part-2" target="_blank">JavaScript Road Trip Part 2</a></li>
-								<li><a href="https://www.codeschool.com/courses/javascript-road-trip-part-3" target="_blank">JavaScript Road Trip Part 3</a></li>
-							</ul>
+								<ul>
+									<li><!--<img class="completed" src="graphics/accept.png" alt="Comleted!" title="Completed!">-->
+											<a href="https://www.codeschool.com/courses/javascript-best-practices" target="_blank">JavaScript Best Practices</a>
+											<small title="Completed on:"></small></li>
+									<li><!--<img class="completed" src="graphics/accept.png" alt="Comleted!" title="Completed!">-->
+											<a href="https://www.codeschool.com/courses/javascript-road-trip-part-1" target="_blank">JavaScript Road Trip Part 1</a>
+											<small title="Completed on:"></small></li>
+									<li><!--<img class="completed" src="graphics/accept.png" alt="Comleted!" title="Completed!">-->
+											<a href="https://www.codeschool.com/courses/javascript-road-trip-part-2" target="_blank">JavaScript Road Trip Part 2</a>
+											<small title="Completed on:"></small></li>
+									<li><!--<img class="completed" src="graphics/accept.png" alt="Comleted!" title="Completed!">-->
+											<a href="https://www.codeschool.com/courses/javascript-road-trip-part-3" target="_blank">JavaScript Road Trip Part 3</a>
+											<small title="Completed on:"></small></li>
+								</ul>
 						<h4><a href="https://www.freecodecamp.com" target="_blank">Freecodecamp</a></h4>
-							<ul>
-								<li><a href="https://www.freecodecamp.com/map-aside#nested-collapseBasicJavaScript" target="_blank">Basic JavaScript</a></li>
-								<li><a href="https://www.freecodecamp.com/map-aside#nested-collapseObjectOrientedandFunctionalProgramming" target="_blank">Object Oriented and Functional Programming</a></li>
-								<li><a href="https://www.freecodecamp.com/map-aside#nested-collapseBasicFrontEndDevelopmentProjects" target="_blank">Basic Front End Development Projects</a></li>
-							</ul>
+								<ul>
+									<li><!--<img class="completed" src="graphics/accept.png" alt="Comleted!" title="Completed!">-->
+											<a href="https://www.freecodecamp.com/map-aside#nested-collapseBasicJavaScript" target="_blank">Basic JavaScript</a>
+											<small title="Completed on:"></small></li>
+											<div class="progress">
+												<div class="progress-bar progress-bar-success" role="progressbar" style="min-width: 2em; width: 70%">
+													<span class="progress-text-success">70 %</span> <!-- ~103 challenges (started at 100) -->
+												</div>
+											</div>
+									<li><!--<img class="completed" src="graphics/accept.png" alt="Comleted!" title="Completed!">-->
+											<a href="https://www.freecodecamp.com/map-aside#nested-collapseObjectOrientedandFunctionalProgramming" target="_blank">Object Oriented and Functional Programming</a>
+											<small title="Completed on:"></small></li>
+									<li><!--<img class="completed" src="graphics/accept.png" alt="Comleted!" title="Completed!">-->
+											<a href="https://www.freecodecamp.com/map-aside#nested-collapseBasicFrontEndDevelopmentProjects" target="_blank">Basic Front End Development Projects</a>
+											<small title="Completed on:"></small></li>
+								</ul>
 						<h4><a href="https://www.lynda.com" target="_blank" >Lynda</a></h4>
-							<ul>
-								<li><a href="https://www.lynda.com/JavaScript-tutorials/Introducing-JavaScript-Language/123563-2.html" target="_blank">
-Introducing the JavaScript Language</a><img class="completed" src="graphics/accept.png" alt="Comleted!" title="Completed!"></li>
-									<li><a href="https://www.lynda.com/JavaScript-tutorials/JavaScript-Essential-Training/81266-2.html" target="_blank">JavaScript Essential Training</a></li>
-							</ul>
+								<ul>
+									<li><img class="completed" src="graphics/accept.png" alt="Comleted!" title="Completed!">
+											<a href="https://www.lynda.com/JavaScript-tutorials/Introducing-JavaScript-Language/123563-2.html" target="_blank">
+												Introducing the JavaScript Language</a>
+												<small title="Completed on:">2016-06-20</small></li>
+										<li><!--<img class="completed" src="graphics/accept.png" alt="Comleted!" title="Completed!">-->
+												<a href="https://www.lynda.com/JavaScript-tutorials/JavaScript-Essential-Training/81266-2.html" target="_blank">JavaScript Essential Training</a>
+												<small title="Completed on:"></small></li>
+								</ul>
 						<h4><a href="http://www.sololearn.com" target="_blank">Sololearn</a></h4>
-							<ul>
-								<li><a href="http://www.sololearn.com/Course/JavaScript/" target="_blank">JavaScript Basics</a></li>
-							</ul>
+								<ul>
+									<li><img class="completed" src="graphics/accept.png" alt="Comleted!" title="Completed!">
+											<a href="http://www.sololearn.com/Course/JavaScript/" target="_blank">JavaScript Basics</a>
+											<small title="Completed on:">2016-08-23</small></li>
+								</ul>
 						<h4><a href="https://www.udacity.com" target="_blank">Udacity</a></h4>
-							<ul>
-								<li><a href="https://www.udacity.com/course/javascript-basics--ud804" target="_blank">JavaScript Basics</a></li>
-								<li><a href="https://www.udacity.com/course/object-oriented-javascript--ud015" target="_blank">Object-Oriented JavaScript </a></li>
-								<li><a href="https://www.udacity.com/course/javascript-testing--ud549" target="_blank">JavaScript Testing</a></li>
-								<li><a href="https://www.udacity.com/course/website-performance-optimization--ud884" target="_blank">Website Performance Optimization</a></li>
-								<li><a href="https://www.udacity.com/course/front-end-frameworks--ud894" target="_blank">Front End Frameworks</a></li>
-								<li><a href="https://www.udacity.com/course/javascript-design-patterns--ud989" target="_blank">JavaScript Design Patterns</a></li>
-								<li><a href="https://www.udacity.com/course/javascript-promises--ud898" target="_blank">JavaScript Promises</a></li>
-								<li><a href="#" target="_blank">placeholder</a></li>
-							</ul>
-					<h4>JQuery<a href="#top"><button type="button" class="btn btn-info top">Top</button></a></h4>
-						<h4><a href="https://www.codecademy.com/learn" target="_blank">Codecademy</a></h4>
-							<ul>
-								<li><a href="https://www.codecademy.com/en/tracks/jquery" target="_blank">JQuery</a></li>
-							</ul>
-						<h4><a href="https://www.codeschool.com" target="_blank">Code school</a></h4>
-							<ul>
-								<li><a href="https://www.codeschool.com/courses/try-jquery" target="_blank">Try JQuery</a></li>
-							</ul>
-						<h4><a href="https://www.freecodecamp.com" target="_blank">Freecodecamp</a></h4>
-							<ul>
-								<li><a href="https://www.freecodecamp.com/map-aside#nested-collapsejQuery" target="_blank">JQuery</a></li>
-							</ul>
-					<h4>Angular JS<a href="#top"><button type="button" class="btn btn-info top">Top</button></a></h4>
-						<ul>
-							<li><a href="https://www.codecademy.com/en/courses/learn-angularjs" target="_blank">Learn Angular JS 1.x</a></li>
-						</ul>
-						<h4>MathJax</h4>
-			</div>
-		</div>
-		<div class="row intraheader-section"> <!-- Python -->
-			<h3 class="header-section" id="python">Python<a href="#top"><button type="button" class="btn btn-info top">Top</button></a></h3>
-				<div class="col-md-6">
+								<ul>
+									<li><!--<img class="completed" src="graphics/accept.png" alt="Comleted!" title="Completed!">-->
+											<a href="https://www.udacity.com/course/javascript-basics--ud804" target="_blank">JavaScript Basics</a>
+											<small title="Completed on:"></small></li>
+									<li><!--<img class="completed" src="graphics/accept.png" alt="Comleted!" title="Completed!">-->
+											<a href="https://www.udacity.com/course/object-oriented-javascript--ud015" target="_blank">Object-Oriented JavaScript </a>
+											<small title="Completed on:"></small></li>
+									<li><!--<img class="completed" src="graphics/accept.png" alt="Comleted!" title="Completed!">-->
+											<a href="https://www.udacity.com/course/javascript-testing--ud549" target="_blank">JavaScript Testing</a>
+											<small title="Completed on:"></small></li>
+									<li><!--<img class="completed" src="graphics/accept.png" alt="Comleted!" title="Completed!">-->
+											<a href="https://www.udacity.com/course/website-performance-optimization--ud884" target="_blank">Website Performance Optimization</a>
+											<small title="Completed on:"></small></li>
+									<li><!--<img class="completed" src="graphics/accept.png" alt="Comleted!" title="Completed!">-->
+											<a href="https://www.udacity.com/course/front-end-frameworks--ud894" target="_blank">Front End Frameworks</a>
+											<small title="Completed on:"></small></li>
+									<li><!--<img class="completed" src="graphics/accept.png" alt="Comleted!" title="Completed!">-->
+											<a href="https://www.udacity.com/course/javascript-design-patterns--ud989" target="_blank">JavaScript Design Patterns</a>
+											<small title="Completed on:"></small></li>
+									<li><!--<img class="completed" src="graphics/accept.png" alt="Comleted!" title="Completed!">-->
+											<a href="https://www.udacity.com/course/javascript-promises--ud898" target="_blank">JavaScript Promises</a>
+											<small title="Completed on:"></small></li>
+								</ul>
+							<h4>JQuery<a href="#top"><button type="button" class="btn btn-info top">Top</button></a></h4>
+								<h5><a href="https://www.codecademy.com/learn" target="_blank">Codecademy</a></h5>
+									<ul>
+										<li><!--<img class="completed" src="graphics/accept.png" alt="Comleted!" title="Completed!">-->
+												<a href="https://www.codecademy.com/en/tracks/jquery" target="_blank">JQuery</a>
+												<small title="Completed on:"></small></li>
+									</ul>
+								<h5><a href="https://www.codeschool.com" target="_blank">Code school</a></h5>
+									<ul>
+										<li><!--<img class="completed" src="graphics/accept.png" alt="Comleted!" title="Completed!">-->
+												<a href="https://www.codeschool.com/courses/try-jquery" target="_blank">Try JQuery</a>
+												<small title="Completed on:"></small></li>
+									</ul>
+								<h5><a href="https://www.freecodecamp.com" target="_blank">Freecodecamp</a></h5>
+									<ul>
+										<li><!--<img class="completed" src="graphics/accept.png" alt="Comleted!" title="Completed!">-->
+												<a href="https://www.freecodecamp.com/map-aside#nested-collapsejQuery" target="_blank">JQuery</a>
+												<small title="Completed on:"></small></li>
+									</ul>
+							<h4>Angular JS<a href="#top"><button type="button" class="btn btn-info top">Top</button></a></h4>
+								<h5><a href="https://www.codecademy.com/learn" target="_blank">Codecademy</a></h5>
+									<ul>
+										<li><!--<img class="completed" src="graphics/accept.png" alt="Comleted!" title="Completed!">-->
+												<a href="https://www.codecademy.com/en/courses/learn-angularjs" target="_blank">Learn Angular JS 1.x</a>
+												<small title="Completed on:"></small></li>
+									</ul>
+							<h4>MathJax</h4>
+								<ul>
+									<li><!--<img class="completed" src="graphics/accept.png" alt="Comleted!" title="Completed!">-->
+											<small title="Completed on:"></small>
+									</li>
+								</ul>
+				</div>
+		</div> <!-- HTML/CSS/Bootstrap row ends -->
+		<div class="row between-sections"> <!-- Python -->
+			<h3 class="header-section" id="python">Python</small><a href="#top"><button type="button" class="btn btn-info top">Top</button></a></h3>
+				<div class="col-md-6"> <!-- Python -->
 					<h4><a href="https://www.codecademy.com/learn" target="_blank">Codecademy</a></h4>
 						<ul>
-								<li><a href="https://www.codecademy.com/learn/python" target="_blank">Python</a></li>
+								<li><!--<img class="completed" src="graphics/accept.png" alt="Comleted!" title="Completed!">-->
+										<a href="https://www.codecademy.com/learn/python" target="_blank">Python</a></li>
 							</ul>
 					<h4><a href="https://www.codeschool.com" target="_blank">Code school</a></h4>
 						<ul>
-							<li><a href="https://www.codeschool.com/courses/try-python/goto" target="_blank">Try Python</a><img class="completed" src="graphics/accept.png" alt="Comleted!"></li>
+							<li><img class="completed" src="graphics/accept.png" alt="Comleted!" title="Completed!">
+									<a href="https://www.codeschool.com/courses/try-python/goto" target="_blank">Try Python</a></li>
 						</ul>
 					<h4><a href="https://www.freecodecamp.com" target="_blank">Freecodecamp</a></h4>
 					<h4><a href="https://www.lynda.com" target="_blank" >Lynda</a></h4>
 						<ul>
-							<li><a href="https://www.lynda.com/Python-tutorials/Up-Running-Python/122467-2.html" target="_blank">Up and Running with Python</a></li>
-							<li><a href="https://www.lynda.com/Python-3-tutorials/essential-training/62226-2.html" target="_blank">Python 3 Essential Training</a></li>
-							<li><a href="https://www.lynda.com/Python-tutorials/Code-Clinic-Python/163752-2.html" target="_blank">Code Clinic: Python</a></li>
-							<li><a href="https://www.lynda.com/Python-tutorials/Design-Patterns-Python/369187-2.html" target="_blank">Design Patterns with Python</a></li>
+							<li><!--<img class="completed" src="graphics/accept.png" alt="Comleted!" title="Completed!">-->
+									<a href="https://www.lynda.com/Python-tutorials/Up-Running-Python/122467-2.html" target="_blank">Up and Running with Python</a></li>
+							<li><!--<img class="completed" src="graphics/accept.png" alt="Comleted!" title="Completed!">-->
+									<a href="https://www.lynda.com/Python-3-tutorials/essential-training/62226-2.html" target="_blank">Python 3 Essential Training</a></li>
+							<li><!--<img class="completed" src="graphics/accept.png" alt="Comleted!" title="Completed!">-->
+									<a href="https://www.lynda.com/Python-tutorials/Code-Clinic-Python/163752-2.html" target="_blank">Code Clinic: Python</a></li>
+							<li><!--<img class="completed" src="graphics/accept.png" alt="Comleted!" title="Completed!">-->
+									<a href="https://www.lynda.com/Python-tutorials/Design-Patterns-Python/369187-2.html" target="_blank">Design Patterns with Python</a></li>
 						</ul>
 					<h4><a href="http://www.sololearn.com" target="_blank">Sololearn</a></h4>
 						<ul>
-							<li><a href="http://www.sololearn.com/Profile/1275337/Python" target="_blank">Python 3 Tutorial</a></li>
+							<li><!--<img class="completed" src="graphics/accept.png" alt="Comleted!" title="Completed!">-->
+									<a href="http://www.sololearn.com/Profile/1275337/Python" target="_blank">Python 3 Tutorial</a></li>
 						</ul>
 					<h4><a href="https://www.udacity.com" target="_blank">Udacity</a></h4>
 				</div>
-			<div class="col-md-6">
+			<div class="col-md-6"> <!-- Python libraries -->
 				<h4>Matplotlib</h4>
 				<h4>Numpy</h4>
 				<h4>Pandas</h4>
 					<ul>
-						<li><a href="https://www.lynda.com/Numpy-tutorials/Introduction-Data-Analysis-Python/419162-2.html" target="_blank">Introduction to Data Analysis with Python</a></li>
+						<li><!--<img class="completed" src="graphics/accept.png" alt="Comleted!" title="Completed!">-->
+								<a href="https://www.lynda.com/Numpy-tutorials/Introduction-Data-Analysis-Python/419162-2.html" target="_blank">Introduction to Data Analysis with Python</a></li>
 					</ul>
 				<h4>Sci-learn</h4>
 				<h4>Django</h4>
 					<ul>
-						<li><a href="https://www.lynda.com/Web-Development-tutorials/Up-Running-Python-Django/386287-2.html" target="_blank">Up and Running with Python and Django</a></li>
+						<li><!--<img class="completed" src="graphics/accept.png" alt="Comleted!" title="Completed!">-->
+								<a href="https://www.lynda.com/Web-Development-tutorials/Up-Running-Python-Django/386287-2.html" target="_blank">Up and Running with Python and Django</a></li>
 					</ul>
 			</div>
 		</div>
-		<div class="row intraheader-section"> <!-- MATLAB & Android -->
-			<div class="col-md-6">
+		<div class="row between-sections"> <!-- MATLAB & Android -->
+			<div class="col-md-6"> <!-- Android -->
 				<h3 id="android">Android<a href="#top"><button type="button" class="btn btn-info top">Top</button></a></h3>
 					<h4><a href="https://www.codecademy.com/learn" target="_blank">Codecademy</a></h4>
 					<h4><a href="https://www.codeschool.com" target="_blank">Code school</a></h4>
@@ -345,38 +489,48 @@ Introducing the JavaScript Language</a><img class="completed" src="graphics/acce
 					<h4><a href="http://www.sololearn.com" target="_blank">Sololearn</a></h4>
 					<h4><a href="https://www.udacity.com" target="_blank">Udacity</a></h4>
 			</div>
-			<div class="col-md-6">
-				<h3 id="matlab">MATLAB<button type="button" class="btn btn-info top"><a href="#top">Top</a></button></h3>
+			<div class="col-md-6"> <!-- MATLAB -->
+				<h3 id="matlab">MATLAB</small><button type="button" class="btn btn-info top"><a href="#top">Top</a></button></h3>
+					<ul>
+						<li>MATLAB PROJEKT</li>
+					</ul>
 			</div>
 		</div>
 		<div class="row"> <!-- Databases & GIS -->
-			<div class="col-md-6">
+			<div class="col-md-6"> <!-- Databases -->
 				<h3 id="databases">Databases<a href="#top"><button type="button" class="btn btn-info top">Top</button></a></h3>
 					<h4>SQL, D3, mongodb</h4>
-					
 					<h4><a href="https://www.codecademy.com/learn" target="_blank">Codecademy</a></h4>
 						<ul>
-							<li><a href="https://www.codecademy.com/en/courses/learn-sql" target="_blank">Learn SQL</a></li>
-							<li><a href="https://www.codecademy.com/en/courses/sql-table-transformation" target="_blank">SQL: Table Transformation</a></li>
-							<li><a href="https://www.codecademy.com/en/courses/sql-analyzing-business-metrics" target="_blank">SQL: Analyzing Business Metrics</a></li>
+							<li><!--<img class="completed" src="graphics/accept.png" alt="Comleted!" title="Completed!">-->
+									<a href="https://www.codecademy.com/en/courses/learn-sql" target="_blank">Learn SQL</a></li>
+							<li><!--<img class="completed" src="graphics/accept.png" alt="Comleted!" title="Completed!">-->
+									<a href="https://www.codecademy.com/en/courses/sql-table-transformation" target="_blank">SQL: Table Transformation</a></li>
+							<li><!--<img class="completed" src="graphics/accept.png" alt="Comleted!" title="Completed!">-->
+									<a href="https://www.codecademy.com/en/courses/sql-analyzing-business-metrics" target="_blank">SQL: Analyzing Business Metrics</a></li>
 						</ul>
 					<h4><a href="https://www.codeschool.com" target="_blank">Code school</a></h4>
 						<ul>
-							<li><a href="https://www.codeschool.com/courses/try-sql" target="_blank">Try SQL</a></li>
+							<li><!--<img class="completed" src="graphics/accept.png" alt="Comleted!" title="Completed!">-->
+									<a href="https://www.codeschool.com/courses/try-sql" target="_blank">Try SQL</a></li>
 						</ul>
 					<h4><a href="https://www.freecodecamp.com" target="_blank">Freecodecamp</a></h4>
 					<h4><a href="https://www.lynda.com" target="_blank" >Lynda</a></h4>
 					<h4><a href="http://www.sololearn.com" target="_blank">Sololearn</a></h4>
 					<h4><a href="https://www.udacity.com" target="_blank">Udacity</a></h4>
 			</div>
-			<div class="col-md-6">
+			<div class="col-md-6"> <!-- GIS -->
 				<h3 id="gis">ArcGIS/OpenGIS<a href="#top"><button type="button" class="btn btn-info top">Top</button></a></button></h3>
 					<h4><a href="https://www.lynda.com" target="_blank" >Lynda</a></h4>
 						<ul>
-							<li><a href="https://www.lynda.com/ArcGIS-tutorials/Up-Running-ArcGIS/147014-2.html" target="_blank">Up and Running with ArcGIS</a></li>
-							<li><a href="https://www.lynda.com/ArcGIS-tutorials/Real-World-GIS/162135-2.html" target="_blank">GIS on the Web</a></li>
-							<li><a href="https://www.lynda.com/ArcGIS-tutorials/GIS-Web/162136-2.html" target="_blank">GIS on the Web</a></li>
-							<li><a href="https://www.lynda.com/ArcGIS-tutorials/ArcGIS-Essential-Training/180108-2.html" target="_blank">ArcGIS Essential Training</a></li>
+							<li><!--<img class="completed" src="graphics/accept.png" alt="Comleted!" title="Completed!">-->
+									<a href="https://www.lynda.com/ArcGIS-tutorials/Up-Running-ArcGIS/147014-2.html" target="_blank">Up and Running with ArcGIS</a></li>
+							<li><!--<img class="completed" src="graphics/accept.png" alt="Comleted!" title="Completed!">-->
+									<a href="https://www.lynda.com/ArcGIS-tutorials/Real-World-GIS/162135-2.html" target="_blank">GIS on the Web</a></li>
+							<li><!--<img class="completed" src="graphics/accept.png" alt="Comleted!" title="Completed!">-->
+									<a href="https://www.lynda.com/ArcGIS-tutorials/GIS-Web/162136-2.html" target="_blank">GIS on the Web</a></li>
+							<li><!--<img class="completed" src="graphics/accept.png" alt="Comleted!" title="Completed!">-->
+									<a href="https://www.lynda.com/ArcGIS-tutorials/ArcGIS-Essential-Training/180108-2.html" target="_blank">ArcGIS Essential Training</a></li>
 						</ul>
 			</div>
 		</div>
@@ -390,23 +544,29 @@ Introducing the JavaScript Language</a><img class="completed" src="graphics/acce
 				<div class="col-md-6"> <!-- Takes up 100% of row -->
 					<h3 id="french">French<a href="#top"><button type="button" class="btn btn-info top">Top</button></a></h3>
 						<ul>
-							<li><a href="https://www.duolingo.com" target="_blank">Duolingo</a></li>
-							<li><a href="https://learn.lingvist.io/" target="_blank">Lingvist</a></li>
+							<li><!--<img class="completed" src="graphics/accept.png" alt="Comleted!" title="Completed!">-->
+									<a href="https://www.duolingo.com" target="_blank">Duolingo</a></li>
+							<li><!--<img class="completed" src="graphics/accept.png" alt="Comleted!" title="Completed!">-->
+									<a href="https://learn.lingvist.io/" target="_blank">Lingvist</a></li>
 							<li>Alison</li>
 								<ul>
-									<li><a href="https://alison.com/topic/learn/5769/54441/module-1-french-language-studies-introduction/college-subjects" target="_blank">Module 1 - introduction</a></li>
-									<li><a href="http://www.institutfrancais-suede.com/category/suede-sv/sprak-och-utbildning/delf-och-dalf-examina/?lang=sv" target="_blank">DELF (B1) test</a></li>
+									<li><!--<img class="completed" src="graphics/accept.png" alt="Comleted!" title="Completed!">-->
+											<a href="https://alison.com/topic/learn/5769/54441/module-1-french-language-studies-introduction/college-subjects" target="_blank">Module 1 - introduction</a></li>
+									<li><!--<img class="completed" src="graphics/accept.png" alt="Comleted!" title="Completed!">-->
+											<a href="http://www.institutfrancais-suede.com/category/suede-sv/sprak-och-utbildning/delf-och-dalf-examina/?lang=sv" target="_blank">DELF (B1) test</a></li>
 								</ul>
 						</ul>
 						<h4>Reading list</h4>
 							<ul>
 								<li>Books</li>
 									<ul>
-										<li>À l’école des sorciers</li>
+										<li><!--<img class="completed" src="graphics/accept.png" alt="Comleted!" title="Completed!">-->
+												À l’école des sorciers</li>
 									</ul>
 								<li>Wikipedia</li>
 									<ul>
-										<li><a href="#" target="_blank">placeholder</a></li>
+										<li><!--<img class="completed" src="graphics/accept.png" alt="Comleted!" title="Completed!">-->
+												<!--<a href="#" target="_blank">placeholder</a></li>-->
 									</ul>
 							</ul>
 					<h3 id="japanese">Japanese<a href="#top"><button type="button" class="btn btn-info top">Top</button></a></h3>
@@ -414,28 +574,42 @@ Introducing the JavaScript Language</a><img class="completed" src="graphics/acce
 			<div class="col-md-6">
 				<h3 id="russian">Russian<a href="#top"><button type="button" class="btn btn-info top">Top</button></a></h3>
 					<ul>
-						<li><a href="https://www.duolingo.com" target="_blank">Duolingo</a></li>
+						<li>
+								<a href="https://www.duolingo.com" target="_blank">Duolingo</a></li>
 					</ul>
 						<h4>Reading list</h4>
 							<ul>
 								<li>Books</li>
-									<li>Гарри Поттер и философский камень</li>
+									<li>
+											Гарри Поттер и философский камень</li>
 								<li>Wikipedia</li>
 									<ul>
+										<li><!--<img class="completed" src="graphics/accept.png" alt="Comleted!" title="Completed!">-->
+												<a href="https://ru.wikipedia.org/wiki/%D0%9D%D0%B0%D1%83%D0%BA%D0%B8_%D0%BE_%D0%97%D0%B5%D0%BC%D0%BB%D0%B5" target="_blank">Науки о Земле</a></li>
+										<li><!--<img class="completed" src="graphics/accept.png" alt="Comleted!" title="Completed!">-->
+												<a href="https://ru.wikipedia.org/wiki/%D0%93%D0%B5%D0%BE%D1%85%D0%B8%D0%BC%D0%B8%D1%8F" target="_blank">Геохимия</a></li>
+										<li><!--<img class="completed" src="graphics/accept.png" alt="Comleted!" title="Completed!">-->
+												<a href="https://ru.wikipedia.org/wiki/%D0%9C%D0%B8%D0%BD%D0%B5%D1%80%D0%B0%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F" target="_blank">Минералогия</a></li>
+										<li><!--<img class="completed" src="graphics/accept.png" alt="Comleted!" title="Completed!">-->
+												<a href="https://ru.wikipedia.org/wiki/%D0%93%D0%B5%D0%BE%D0%BC%D0%BE%D1%80%D1%84%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F" target="_blank">Геоморфология</a></li>
+										<li><!--<img class="completed" src="graphics/accept.png" alt="Comleted!" title="Completed!">-->
+												<a href="https://ru.wikipedia.org/wiki/%D0%92%D1%83%D0%BB%D0%BA%D0%B0%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F" target="_blank">Вулканология</a></li>
 										<li>
-<a href="https://ru.wikipedia.org/wiki/%D0%9D%D0%B0%D1%83%D0%BA%D0%B8_%D0%BE_%D0%97%D0%B5%D0%BC%D0%BB%D0%B5" target="_blank">Науки о Земле</a></li>
-										<li><a href="https://ru.wikipedia.org/wiki/%D0%93%D0%B5%D0%BE%D1%85%D0%B8%D0%BC%D0%B8%D1%8F" target="_blank">Геохимия</a></li>
-										<li><a href="https://ru.wikipedia.org/wiki/%D0%9C%D0%B8%D0%BD%D0%B5%D1%80%D0%B0%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F" target="_blank">Минералогия</a></li>
-										<li><a href="https://ru.wikipedia.org/wiki/%D0%93%D0%B5%D0%BE%D0%BC%D0%BE%D1%80%D1%84%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F" target="_blank">Геоморфология</a></li>
-										<li><a href="https://ru.wikipedia.org/wiki/%D0%92%D1%83%D0%BB%D0%BA%D0%B0%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F" target="_blank">Вулканология</a></li>
-										<li><a href="https://ru.wikipedia.org/wiki/%D0%93%D0%B5%D0%BE%D1%85%D1%80%D0%BE%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F" target="_blank">Геохронология</a></li>
-										<li><a href="https://ru.wikipedia.org/wiki/%D0%A1%D1%82%D1%80%D0%B0%D1%82%D0%B8%D0%B3%D1%80%D0%B0%D1%84%D0%B8%D1%8F" target="_blank">Стратиграфия</a></li>
-										<li><a href="https://ru.wikipedia.org/wiki/%D0%9F%D0%B0%D0%BB%D0%B5%D0%BE%D0%BD%D1%82%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F" target="_blank">Палеонтология</a></li>
-										<li><a href="https://ru.wikipedia.org/wiki/%D0%93%D0%B5%D0%BE%D0%B4%D0%B8%D0%BD%D0%B0%D0%BC%D0%B8%D0%BA%D0%B0" target="_blank">Геодинамика</a></li>
-										<li><a href="https://ru.wikipedia.org/wiki/%D0%93%D0%B5%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F_%D0%BF%D0%BE%D0%BB%D0%B5%D0%B7%D0%BD%D1%8B%D1%85_%D0%B8%D1%81%D0%BA%D0%BE%D0%BF%D0%B0%D0%B5%D0%BC%D1%8B%D1%85" target="_blank">Геология полезных ископаемых</a></li>
-										<li><a href="https://ru.wikipedia.org/wiki/%D0%93%D0%B8%D0%B4%D1%80%D0%BE%D0%B3%D0%B5%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F" target="_blank">Гидрогеология</a></li>
-										<li><a href="https://ru.wikipedia.org/wiki/%D0%9F%D0%BE%D1%87%D0%B2%D0%BE%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5" target="_blank">Почвоведение</a></li>
-										<li><a href="https://ru.wikipedia.org/wiki/%D0%98%D0%BD%D0%B6%D0%B5%D0%BD%D0%B5%D1%80%D0%BD%D0%B0%D1%8F_%D0%B3%D0%B5%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F" target="_blank">Инженерная геология</a></li>
+												<a href="https://ru.wikipedia.org/wiki/%D0%93%D0%B5%D0%BE%D1%85%D1%80%D0%BE%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F" target="_blank">Геохронология</a></li>
+										<li><!--<img class="completed" src="graphics/accept.png" alt="Comleted!" title="Completed!">-->
+												<a href="https://ru.wikipedia.org/wiki/%D0%A1%D1%82%D1%80%D0%B0%D1%82%D0%B8%D0%B3%D1%80%D0%B0%D1%84%D0%B8%D1%8F" target="_blank">Стратиграфия</a></li>
+										<li><!--<img class="completed" src="graphics/accept.png" alt="Comleted!" title="Completed!">-->
+												<a href="https://ru.wikipedia.org/wiki/%D0%9F%D0%B0%D0%BB%D0%B5%D0%BE%D0%BD%D1%82%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F" target="_blank">Палеонтология</a></li>
+										<li><!--<img class="completed" src="graphics/accept.png" alt="Comleted!" title="Completed!">-->
+												<a href="https://ru.wikipedia.org/wiki/%D0%93%D0%B5%D0%BE%D0%B4%D0%B8%D0%BD%D0%B0%D0%BC%D0%B8%D0%BA%D0%B0" target="_blank">Геодинамика</a></li>
+										<li><!--<img class="completed" src="graphics/accept.png" alt="Comleted!" title="Completed!">-->
+												<a href="https://ru.wikipedia.org/wiki/%D0%93%D0%B5%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F_%D0%BF%D0%BE%D0%BB%D0%B5%D0%B7%D0%BD%D1%8B%D1%85_%D0%B8%D1%81%D0%BA%D0%BE%D0%BF%D0%B0%D0%B5%D0%BC%D1%8B%D1%85" target="_blank">Геология полезных ископаемых</a></li>
+										<li><!--<img class="completed" src="graphics/accept.png" alt="Comleted!" title="Completed!">-->
+												<a href="https://ru.wikipedia.org/wiki/%D0%93%D0%B8%D0%B4%D1%80%D0%BE%D0%B3%D0%B5%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F" target="_blank">Гидрогеология</a></li>
+										<li><!--<img class="completed" src="graphics/accept.png" alt="Comleted!" title="Completed!">-->
+												<a href="https://ru.wikipedia.org/wiki/%D0%9F%D0%BE%D1%87%D0%B2%D0%BE%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5" target="_blank">Почвоведение</a></li>
+										<li><!--<img class="completed" src="graphics/accept.png" alt="Comleted!" title="Completed!">-->
+												<a href="https://ru.wikipedia.org/wiki/%D0%98%D0%BD%D0%B6%D0%B5%D0%BD%D0%B5%D1%80%D0%BD%D0%B0%D1%8F_%D0%B3%D0%B5%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F" target="_blank">Инженерная геология</a></li>
 									</ul>
 							</ul>
 				<h3 id="hebrew">Hebrew<a href="#top"><button type="button" class="btn btn-info top">Top</button></a></h3>
@@ -445,66 +619,137 @@ Introducing the JavaScript Language</a><img class="completed" src="graphics/acce
 			<div class="col-md-12">
 				<hr> <!-- Horizontal rule -->
 			</div>
-		</div>
-		<div class="row"> <!-- Footer -->
-			<div class="col-md-12"> <!-- Takes up 100% of row -->
-				<div class="footer">
-					<p class="header-section">Written by Jakob Papirov, Uppsala, Sweden 2016</p>
-				</div>
+		</div> <!-- Section divider ends -->
+		<div class="row" id="timeline"> <!-- Timeline row -->
+			<div class="col-md-12">
+				<h2 class="header-section">Timeline</h2>
+					<div class="row inbetween-sections">
+						<div class="col-md-12">
+							<h3 class="header-section">Programming</h3>
+								<div class="table-responsive">
+									<table class="table table-hover">
+										<caption>Previous, current and planned.</caption>
+										<thead>
+											<tr>
+												<th>Language</th>
+												<th>Start date</th>
+												<th>Start date (official)</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td>HTML/CSS/Bootstrap</td>
+												<td>2010-12 &rarr; 2011-05</td>
+												<td>2016-06</td>
+											</tr>
+											<tr>
+												<td>JavaScript</td>
+												<td>2011-02 &rarr; 2011-05</td>
+												<td>2016-08</td>
+											</tr>
+											<tr>
+												<td>Python</td>
+												<td>2013-11 &rarr; 2014-01</td>
+												<td>2016-06</td>
+											</tr>
+											<tr>
+												<td>MATLAB</td>
+												<td>2010-03</td>
+												<td></td>
+											</tr>
+											<tr>
+												<td>Databases</td>
+												<td></td>
+												<td>2017-01</td>
+											</tr>
+											<tr>
+												<td>GIS</td>
+												<td>2010-03</td>
+												<td>2017-07</td>
+											</tr>
+											<tr>
+												<td>Android</td>
+												<td></td>
+												<td>2017-06</td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+						</div>
+					</div>
+					<div class="row inbetween-sections">
+						<div class="col-md-12">
+							<h3 class="header-section">Language</h3>
+								<div class="table-responsive">
+									<table class="table table-hover">
+										<caption>Languages</caption>
+										<thead>
+											<tr>
+												<th>Language</th>
+												<th>Start date</th>
+												<th>Start date (official)</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td>French</td>
+												<td></td>
+												<td>2015-11</td>
+											</tr>
+											<tr>
+												<td>Russian</td>
+												<td></td>
+												<td></td>
+											</tr>
+											<tr>
+												<td>Hebrew</td>
+												<td></td>
+												<td></td>
+											</tr>
+											<tr>
+												<td>Japanese</td>
+												<td></td>
+												<td></td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+						</div>
+					</div>
 			</div>
-		</div> <!-- Footer ends -->
+		</div> <!-- Timeline row -->
 		<div class="row"> <!-- Section divider -->
 			<div class="col-md-12">
 				<hr> <!-- Horizontal rule -->
 			</div>
+		</div> <!-- Section divider ends -->
+		<footer> <!-- Footer -->
+			<p>Written by Jakob Papirov, Uppsala, Sweden 2016</p>
+		</footer> <!-- Footer ends -->
+		<div class="row"> <!-- Section divider ends -->
+			<div class="col-md-12">
+				<hr> <!-- Horizontal rule -->
+			</div>
 		</div>
-		<div class="row"> <!-- Resources used -->
-			<div class="row">
+		<div class="row resources"> <!-- Resources used -->
+      <div class="row">
         <div class="col-md-12">
-          <h5 class="header-section">Resources used</h5>
+          <h5 class="">Resources used</h5>
         </div>
       </div>
-      <div class="col-md-3">
-        <h6 class="header-section">Mjukvara</h6>
-        <ul>
-          <li><a href="http://www.aptana.com/products/studio3/download.html">Aptana 3 studio</a></li>
-          <li><a href="http://www.sublimetext.com/">Stublime text 3</a></li>
-        </ul>
-      </div>
-			<div class="col-md-3">
-			  <h6 class="header-section">Design</h6>
-			    <ul>
-            <li><a href="https://getbootstrap.com" target="_blank" title="Go to bootstrap website | new tab">Bootstrap</a> (incl.  
-             <a href="https://getbootstrap.com/components/#glyphicons" target="_blank" title="Go to Bootstrap: glyphicons | new tab">glyphicons</a>)</li>
-          </ul>
-			</div>
-			<div class="col-md-3">
-			  <h6 class="header-section">Icons</h6>
-			     <ul>
-            <li><a href="http://www.famfamfam.com/lab/icons/silk/" target="_blank" title="Go to famfamfam icons | new tab">famfamfam</a></li>
-            <li><a href="https://icons8.com/" target="_blank" title="Go to icons8">icons8</a></li>
-          </ul>
-			</div>
-			<div class="col-md-3">
-			  <h6 class="header-section">Math</h6>
-			   <ul>
-			     <li><a href="https://www.mathjax.org/" target="_blank" title="Go to mathjax website | new tab">Mathjax</a></li>
-           <li><a href="http://firemath.info" target="_blank" title="Go to firemath | new tab">Firemath: Firefox extention</a></li>
-         <ul>
-			</div>
-		</div> <!-- Resources used ends-->
+      <div class="row">
+        <div class="col-md-4">
+          <a href="http://jakobpapirov.se/resources#main" target="_blank" title="General"><img src="graphics/Book Stack-32.png"></a>
+         </div>
+         <div class="col-md-4">
+          <a href="http://jakobpapirov.se/resources#e-learning" target="_blank" title="Specific"><img src="graphics/Tweezers-32.png"></a>
+         </div>
+         <div col-md-4>
+            <a href="https://github.com/JakobPapirov/e-learning" target="_blank">
+              <img src="graphics/GitHub-32.png" alt="GitHub" title="The repository!"></a>
+         </div>
+       </div>
+    </div> <!-- Resources used ends -->
 	</div> <!-- container ends -->
 </body>
 </html>
-
-<!-- 
-						<h4><a href="https://www.codecademy.com/learn" target="_blank">Codecademy</a></h4>
-						<h4><a href="https://www.codeschool.com" target="_blank">Code school</a></h4>
-						<h4><a href="https://www.freecodecamp.com" target="_blank">Freecodecamp</a></h4>
-						<h4><a href="https://www.lynda.com" target="_blank" >Lynda</a></h4>
-						<h4><a href="http://www.sololearn.com" target="_blank">Sololearn</a></h4>
-						<h4><a href="https://www.udacity.com" target="_blank">Udacity</a></h4>
-							<ul>
-								<li><a href="" target="_blank">placeholder</a></li>
-							</ul>
--->

@@ -25,6 +25,10 @@ hr {
 	padding: 0;
 	text-align: center;
 }
+.progress-text-success {
+	color: black;
+	font-weight: bold;
+}
 ul {
 	list-style: none;
 }
@@ -32,17 +36,41 @@ ul {
 	padding: 0;
 	margin: 5px;
 }
+a::after {
+	content: url("../graphics/External Link-16.png"); /*Remember that the css is in another folder!*/
+}
 .top {
 	margin: 5px;
+	float: right;
 }
 .top a {
 	color: white;
 }
-#footer {
-	clear: both;
-}
-.intraheader-section {
+.between-sections {
 	border-width: 5px;
 	border-bottom: dashed;
 	border-color: #777;
+}
+.inbetween-sections {
+	border-width: 5px;
+	border-bottom: dotted;
+	border-color: #777;
+}
+small {
+	color: #777;
+}
+li small::before {
+	content: " Completed on: ";
+	color: #777;
+}
+caption {
+	text-align: center;
+}
+footer {
+	text-align: center;
+	color: white;
+	background-color: black;
+}
+.resources {
+	text-align: center;
 }
